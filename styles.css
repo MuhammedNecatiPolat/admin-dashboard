@@ -100,6 +100,7 @@ html, body {
     color: whitesmoke;
     padding: 10px 20px;
     border-radius: 20px;
+    font-size: small;
 }
 
 p, h4{
@@ -178,4 +179,15 @@ h3 {
 .card{
     font-size: small;
     font-weight: 600;
+    position: relative;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
 }
